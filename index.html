@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>UI Design - Food Delivery App</title>
+        <title>Project Management App</title>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/custom.css" rel="stylesheet" type="text/css"/>
@@ -12,283 +12,177 @@
         
         <div class="container-fluid">
             
-            <div id="fda_app" class="row">
+            <div id="pma_app" class="row">
 
                 <!-- Start Section Header Bar -->
-                <section id="fda_side_bar">
-                    <div class="menu_icon">
-                        <i class="fa fa-bars"></i>
-                    </div>
-                    <div class="menu">
-                        <ul>
-                            <li>American</li>
-                            <li>Chinese</li>
-                            <li class="active">Indian</li>
-                        </ul>
-                    </div>
-                    <div class="menu_filter">
-                        <i class="fa fa-bar-chart"></i>
+                <section id="pma_header_bar" class="col-12">
+                    <div class="row pma_page_title_row">
+                        <div class="col-2">
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                        <div class="col-10 pma_title_col">
+                            <span class="pma_title"><i class="fa fa-list-alt"></i> &nbsp;Dashboard</span>
+                        </div>
                     </div>
                 </section>
                 <!-- End Section Header Bar -->
+
+                <!-- Start Section Header -->
+                <section id="pma_header" class="col-12">
+                    <div class="row pma_meta_row">
+                        <div class="col-12">
+                            <span class="pma_meta_title">CodeFrog - Digital Agency Mobile App</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Section Header -->
                 
-                <!-- Start Section Header Bar -->
-                <section id="fda_header_bar" class="col-12">
-                    <div class="row">
-                        <div class="col-12">
-                            <span>Order</span>&nbsp;Fresh Food    
+                <!-- Start Section Body -->
+                <section id="pma_body" class="col-12">
+
+                    <!-- Start Body Page Tab -->
+                    <div class="row pma_menu_tabs_row">
+                        <div class="col-4">
+                            In Progress
+                        </div>
+                        <div class="col-4 active">
+                            Assigned
+                        </div>
+                        <div class="col-4">
+                            Completed
                         </div>
                     </div>
-                    <div class="row fda_search_row">
-                        <div class="col-12">
-                            <i class="fa fa-search"></i>
-                            <input type="text" class="fda_ip_search" placeholder="Search by food/restaurant" >
+                    <!-- End Body Page Tab-->
+
+                    <!-- Start Body Page Data 1-->
+                    <div class="row pma_cat_meta_row">
+                        <div class="col-12 pma_cat_title">
+                            Design <span class="pma_cat_count">(3 Assigned)</span>
                         </div>
                     </div>
+                    <div class="row pma_cat_meta_data_row first_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/elon.png" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Elon Musk</span>
+                                <span class="pma_user_hours">9 hr 30 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_3_4">80%</span>
+                        </div>
+                    </div>
+                    <div class="row pma_cat_meta_data_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/steve.jpg" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Steve Jobs</span>
+                                <span class="pma_user_hours">25 hr 15 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_0">
+                                <i class="fa fa-check"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row pma_cat_meta_data_row last_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/bill.jpg" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Bill Gates</span>
+                                <span class="pma_user_hours">14 hr 50 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_1_2">
+                                50%
+                            </span>
+                        </div>
+                    </div>
+                    <br/>
+                    <!-- End Body Page Data 1 -->
+
+                    <!-- Start Body Page Data 2 -->
+                    <div class="row pma_cat_meta_row">
+                        <div class="col-12 pma_cat_title">
+                            Development <span class="pma_cat_count">(4 Assigned)</span>
+                        </div>
+                    </div>
+                    <div class="row pma_cat_meta_data_row first_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/tata.jpg" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Ratan Tata</span>
+                                <span class="pma_user_hours">6 hr 30 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_1_4">
+                                20%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row pma_cat_meta_data_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/murthy.jpg" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Narayana Murthy</span>
+                                <span class="pma_user_hours">9 hr 30 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_0">
+                                <i class="fa fa-check"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row pma_cat_meta_data_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/mark.jpg" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Mark Zuckerberg</span>
+                                <span class="pma_user_hours">16 hr 00 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_3_4">
+                                85%
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row pma_cat_meta_data_row last_row">
+                        <div class="col-2 pma_user_img">
+                            <img src="imgs/sundar.jpg" />
+                        </div>
+                        <div class="col-7 pma_user_info">
+                            <div class="justify-content-center align-self-center">
+                                <span class="pma_user_name">Sundar Pichai</span>
+                                <span class="pma_user_hours">19 hr 30 min</span>
+                            </div>
+                        </div>
+                        <div class="col-3 pma_user_status">
+                            <span class="pma_user_status_info user_status_0">
+                                <i class="fa fa-check"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Body Page Data 2 -->
+
                 </section>
-                <!-- End Section Header Bar -->
-
-                <!-- Start Section Body Part 1 -->
-
-                <section id="fda_product_tile" class="col-12">
-                    
-                    <div class="row fda_food_row">
-                        <div class="col-9">
-                            <div class="food_tile active">
-                                <img src="imgs/food/tsr.png" alt="" class="fda_product_img">
-                                <span class="food_name">Schezwan Rice</span>
-                                <span class="food_detail">Triple schezuan rice, combines hakka noodles, fried rice, crisp noodles and ..</span>
-                                <ul id="food_meta">
-                                    <li>
-                                        Calorie
-                                        <span>325 CAL</span>
-                                    </li>
-                                    <li>
-                                        Price
-                                        <span><i class="fa fa-inr"></i> 550</span>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-sm btn-default">Order Now</button>
-                            </div>
-                        </div>
-                        <div class="col-9">
-                            <div class="food_tile">
-                                <img src="imgs/food/pav-bhaji.png" alt="" class="fda_product_img">
-                                <span class="food_name">Pav Bhaji Butter</span>
-                                <span class="food_detail">Pav bhaji is a fast food dish from India, consisting of a thick vegetable curry ..</span>
-                                <ul id="food_meta">
-                                    <li>
-                                        Calorie
-                                        <span>600 CAL</span>
-                                    </li>
-                                    <li>
-                                        Price
-                                        <span><i class="fa fa-inr"></i> 350</span>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-sm btn-default">Order Now</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
- <!-- Start Section Body Part 1 -->
-
- <section id="fda_product_tile" class="col-12">
-                    
-    <div class="row fda_food_row">
-        <div class="col-9">
-            <div class="food_tile active">
-                <img src="imgs/food/tsr.png" alt="" class="fda_product_img">
-                <span class="food_name">Schezwan Rice</span>
-                <span class="food_detail">Triple schezuan rice, combines hakka noodles, fried rice, crisp noodles and ..</span>
-                <ul id="food_meta">
-                    <li>
-                        Calorie
-                        <span>325 CAL</span>
-                    </li>
-                    <li>
-                        Price
-                        <span><i class="fa fa-inr"></i> 550</span>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-sm btn-default">Order Now</button>
-            </div>
-        </div>
-        <div class="col-9">
-            <div class="food_tile">
-                <img src="imgs/food/pav-bhaji.png" alt="" class="fda_product_img">
-                <span class="food_name">Pav Bhaji Butter</span>
-                <span class="food_detail">Pav bhaji is a fast food dish from India, consisting of a thick vegetable curry ..</span>
-                <ul id="food_meta">
-                    <li>
-                        Calorie
-                        <span>600 CAL</span>
-                    </li>
-                    <li>
-                        Price
-                        <span><i class="fa fa-inr"></i> 350</span>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-sm btn-default">Order Now</button>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<!-- End Section Body Part 1 -->
-
-<!-- Start Section Body Part 2 -->
-
-<section class="fda_section_product_tile col-12">
-    <div class="row fda_title_row">
-        <div class="col-12">
-            Popular this week
-        </div>
-    </div>
-    <div class="row fda_section_row">
-        <div class="section_product_tile row col-10">
-            <div class="col-4 justify-content-center align-self-center">
-                <img src="imgs/food/chenna-poda.png" alt="">
-            </div>
-            <div class="col-6 justify-content-center align-self-center section_meta">
-                <span class="product_title">Chenna Poda</span>
-                <span class="product_rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half"></i>
-                    <span class="rating_avg">(4.5)</span>
-                </span>
-                <span class="product_price">
-                    <i class="fa fa-inr"></i> 250.00
-                </span>
-            </div>
-        </div>
-        <div class="section_product_tile row col-10">
-            <div class="col-4 justify-content-center align-self-center">
-                <img src="imgs/food/tomato-rice.png" alt="">
-            </div>
-            <div class="col-6 justify-content-center align-self-center section_meta">
-                <span class="product_title">Tomato Rice</span>
-                <span class="product_rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <span class="rating_avg">(4.0)</span>
-                </span>
-                <span class="product_price">
-                    <i class="fa fa-inr"></i> 450.00
-                </span>
-            </div>
-        </div>
-        
-    </div>
-</section>
-                <!-- End Section Body Part 1 -->
-
-                <!-- Start Section Body Part 2 -->
-
-                <section class="fda_section_product_tile col-12">
-                    <div class="row fda_title_row">
-                        <div class="col-12">
-                            Popular this week
-                        </div>
-                    </div>
-                    <div class="row fda_section_row">
-                        <div class="section_product_tile row col-10">
-                            <div class="col-4 justify-content-center align-self-center">
-                                <img src="imgs/food/chenna-poda.png" alt="">
-                            </div>
-                            <div class="col-6 justify-content-center align-self-center section_meta">
-                                <span class="product_title">Chenna Poda</span>
-                                <span class="product_rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half"></i>
-                                    <span class="rating_avg">(4.5)</span>
-                                </span>
-                                <span class="product_price">
-                                    <i class="fa fa-inr"></i> 250.00
-                                </span>
-                            </div>
-                        </div>
-                        <div class="section_product_tile row col-10">
-                            <div class="col-4 justify-content-center align-self-center">
-                                <img src="imgs/food/tomato-rice.png" alt="">
-                            </div>
-                            <div class="col-6 justify-content-center align-self-center section_meta">
-                                <span class="product_title">Tomato Rice</span>
-                                <span class="product_rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <span class="rating_avg">(4.0)</span>
-                                </span>
-                                <span class="product_price">
-                                    <i class="fa fa-inr"></i> 450.00
-                                </span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </section>
-
-                <section class="fda_section_product_tile col-12">
-                    <div class="row fda_title_row">
-                        <div class="col-12">
-                            New Arrivals
-                        </div>
-                    </div>
-                    <div class="row fda_section_row">
-                        <div class="section_product_tile row col-10">
-                            <div class="col-4 justify-content-center align-self-center">
-                                <img src="imgs/food/vada-pav.png" alt="">
-                            </div>
-                            <div class="col-6 justify-content-center align-self-center section_meta">
-                                <span class="product_title">Vada Pav</span>
-                                <span class="product_rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <span class="rating_avg">(5.0)</span>
-                                </span>
-                                <span class="product_price">
-                                    <i class="fa fa-inr"></i> 20.00
-                                </span>
-                            </div>
-                        </div>
-                        <div class="section_product_tile row col-10">
-                            <div class="col-4 justify-content-center align-self-center">
-                                <img src="imgs/food/veg-sandwich.png" alt="">
-                            </div>
-                            <div class="col-6 justify-content-center align-self-center section_meta">
-                                <span class="product_title">Veg Sandwich</span>
-                                <span class="product_rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half"></i>
-                                    <span class="rating_avg">(3.5)</span>
-                                </span>
-                                <span class="product_price">
-                                    <i class="fa fa-inr"></i> 650
-                                </span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </section>
-
-                <!-- End Section Body Part 2 -->
+                <!-- End Section Body -->
 
             </div>
 
