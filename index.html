@@ -1,108 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title>UI Design - Movie App</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie UI</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="app">
-          <div class="cover">
-            <img src="imgs/cover.jpg" alt="cover">
-            <i class="fa fa-youtube-play"></i>
-            <span class="title">
-              cloudy with the chance of meatballs(2009)
-              <span>
-                1hr 30mins, 7.4 IMDB, Animation Fantasy/Comedy
-              </span>
-            </span>
-          </div>
-          <div class="fav">
-            <button class="btn">
-              <i class="fa fa-plus"></i>
-              Add To Favorite
-            </button>
-            <div class="users">
-              <img src="imgs/steve.jpg" alt="" class="user-1">
-              <img src="imgs/bill.jpg" alt="" class="user-2">
-              <img src="imgs/mark.jpg" alt="" class="user-3">
-              <span class="fav-count">+11</span>
+    <div class="wrapper">
+            <!-- Screen 1 html -->
+        <div class="screen-1">
+            <header>
+                <div class="row">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="social">
+                        <ion-icon class="icon-social" name="tv"></ion-icon>
+                        <ion-icon class="icon-social" name="person"></ion-icon>
+                    </div>
+                </div>
+                <h1 class="category">Popular <span>🔥</span></h1>
+            </header>
+
+            <div class="images-box">
+                <div class="img1 left">
+                    <img src="images/left.jpeg" alt="">
+                </div>
+                <div class="img1">
+                    <img src="images/money-heist-5.jpg" alt="">
+                </div>
+                <div class="img1 right">
+                    <img src="images/right.jpg" alt="">
+                </div>
             </div>
-          </div>
-          <div class="story">
-            <span class="title">
-              Plot Story
-            </span>
-            <div class="story-icon">
-              <i class="fa fa-play"></i>
-            </div><div class="story-text">
-              Flint Lockwood is an inventor who develops insignificant things. However, when his local sardine cannery shuts down and ..
+            <div class="categories">
+                <a href="#" class="active">Films</a>
+                <a href="#">Series</a>
+                <a href="#">Wishlist</a>
             </div>
-          </div>
-          <div class="schedule">
-            <span class="title">
-              Coming Schedule
-            </span>
-            <div class="detail">
-              <span class="date">07
-                <span>November</span>
-              </span>
-              <span class="location">
-                Cinemax Pro Cinemas
-                <span class="city">
-                  Kalyan, Mumbai
-                </span>
-              </span>
-              <button class="btn">
-                <i class="fa fa-check"></i>
-                Booked
-              </button>
+
+            <div class="bottom-images">
+                <div class="img">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="images/img3.jpg" alt="">
+                </div>
             </div>
-            <div class="map-location">
-              <img src="imgs/map.jpg" alt="">
-              <span class="distance">1.1 Miles</span>
+
+            <div class="bottom-nav">
+
+                <div class="active"> <span class="home">Home</span></div>
+                <ion-icon class="icon" name="search-circle"></ion-icon>
+                <ion-icon class="icon" name="arrow-down-circle"></ion-icon>
+                <ion-icon class="icon" name="tv"></ion-icon>
             </div>
-            <div class="schedule-info">
-              <div class="rows">
-                <span class="theatre">
-                  <span class="title">
-                    Theatre
-                  </span>
-                  <span class="info name">
-                    CinePlex
-                  </span>
-                </span><span class="show">
-                  <span class="title">
-                    Show Time
-                  </span>
-                  <span class="info time">
-                    2:15 PM
-                  </span>
-                </span>
-              </div>
-              <div class="rows">
-                <span class="row">
-                  <span class="title">
-                    Row
-                  </span>
-                  <span class="info row-line">
-                    CF Front
-                  </span>
-                </span><span class="seat">
-                  <span class="title">
-                    Seat
-                  </span>
-                  <span class="info seat-num">
-                    <span class="num">06</span>
-                    <span class="num">07</span>
-                  </span>
-                </span>
-              </div>
-            </div>
-          </div>
         </div>
+    <!-- Screen 1 html end -->
+
+
+
+
+
+        <!-- Screen 2 html -->
+        <div class="screen-2">
+            <div class="top-image">
+                <div class="icons">
+                    <span>
+                        <ion-icon class="arrow" name="caret-back"></ion-icon>
+                    </span>
+                    <span>
+                        <ion-icon name="heart"></ion-icon>
+                    </span>
+                </div>
+                <img src="images/money heist 2.webp" alt="">
+            </div>
+
+            <div class="main-heading">
+                <h1 class="title">Money Heist</h1>
+                <div class="row">
+                    <span class="match">94% Match</span>
+                    <span>2021</span>
+                    <span class="r">R</span>
+                    <span>5 Seasons</span>
+                    <span class="hd">HD</span>
+                </div>
+            </div>
+
+            <div class="categories">
+                <a href="#" class="active">Description</a>
+                <a href="#">Episodes</a>
+                <a href="#">Reviews</a>
+            </div>
+
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nulla fugit illum cumque ex
+                repudiandae, libero voluptate quam, beatae explicabo dolores officiis.<span>Read More</span>
+            </p>
+
+            <div class="btn-play"><span>
+                    <ion-icon class="icon" name="play"></ion-icon>
+                </span>Play</div>
+        </div>
+            <!-- Screen 2 html end-->
+            
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
